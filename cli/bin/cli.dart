@@ -1,4 +1,5 @@
-import 'dart:io'; // Add this line at the top
+import 'dart:io';
+import 'package:http/http.dart' as http;
 
 const version = '0.0.1';
 
