@@ -1,5 +1,9 @@
-import 'package:cli/cli.dart' as cli;
+const version = '0.0.1';
 
 void main(List<String> arguments) {
-  print('Hello world: ${cli.calculate()}!');
+  if (arguments.isEmpty) {
+    print('hello, dwi!');
+  } else if (arguments.first == 'version') {
+    print('dartpedia CLI version: $version');
+  }
 }
